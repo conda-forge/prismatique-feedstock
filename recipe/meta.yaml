@@ -1,5 +1,5 @@
 {% set name = "prismatique" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/prismatique-{{ version }}.tar.gz
-  sha256: c15d1a77a5e8764bb0d5a65c25c797e564f7d1ba6b42d32b8cfa58c9178cfefb
+  sha256: ff3f303095eb2b703d5bd18ee599cba112fb085cd37f78c8dd0290c93cabf543
 
 build:
   noarch: python
